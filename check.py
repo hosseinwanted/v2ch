@@ -21,3 +21,4 @@ def send_to_telegram(message):
 
 if __name__ == "__main__":
     check_configs()
+print(f"Token: {TELEGRAM_TOKEN}, Chat ID: {CHAT_ID}")  # فقط برای تست
